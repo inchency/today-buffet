@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 오늘 메뉴 보기
+    url: https://inchency.github.io/today-buffet/
+    about: 날짜가 확인된 메뉴와 원문을 확인하세요.

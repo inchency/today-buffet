@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="강남역 식당 등록 요청과 공개 메뉴 링크를 제보해 주세요.">
+  <title>식당·메뉴 제보 — 오늘의 뷔페</title>
+  <link rel="stylesheet" href="./styles.css"><script src="./community.js" defer></script>
+</head>
+<body><main>
+  <header class="community-header">
+    <a class="wordmark" href="./">오늘의 뷔페 <span>TODAY’S BUFFET</span></a>
+    <nav class="site-nav"><a href="./">오늘 메뉴</a><a href="./community.html" aria-current="page">식당·메뉴 제보</a></nav>
+    <p class="eyebrow">맛있는 정보는 나눌수록 든든하게</p>
+    <h1>이 식당도<br><em>같이 볼까요?</em></h1>
+    <p class="community-intro">식당 등록 요청과 메뉴 공지 링크를 남겨 주세요.<br>모든 제보는 공개되며, 지점과 날짜를 확인한 뒤 반영합니다.</p>
+  </header>
+  <div class="community-layout">
+    <section class="submission-panel" aria-labelledby="form-heading">
+      <h2 id="form-heading">새 제보 남기기</h2>
+      <noscript><p class="fine-print">제보 화면을 사용하려면 JavaScript가 필요합니다. <a href="https://github.com/inchency/today-buffet/issues/new/choose">GitHub 제보 양식에서 바로 등록할 수도 있습니다.</a></p></noscript>
+      <form id="submission-form">
+        <label>제보 종류<select id="submission-kind" name="kind"><option value="restaurant">식당 등록 요청</option><option value="menu">메뉴 링크 제보</option></select></label>
+        <label>식당 이름 <span aria-hidden="true">*</span><input id="restaurant-name" name="restaurant_name" maxlength="80" required placeholder="매장명과 지점명을 함께 적어 주세요"></label>
+        <label>주소·지역 <span id="address-required" aria-hidden="true">*</span><input id="restaurant-address" name="address" maxlength="160" required placeholder="예: 서울 서초구 강남대로53길 8"></label>
+        <label>공개 메뉴 공지 링크 <span aria-hidden="true">*</span><input id="menu-url" name="menu_url" type="url" maxlength="1200" required placeholder="https://..."><small>식당 등록 요청에도 필수입니다. 인스타·네이버 소식·주간 식단표 등 메뉴를 확인할 수 있는 링크를 주세요.</small></label>
+        <label>추가 설명<textarea id="submission-note" name="note" maxlength="1000" rows="4" placeholder="메뉴 날짜나 확인할 내용을 적어 주세요. 개인정보·로그인 정보는 적지 마세요."></textarea></label>
+        <fieldset class="submission-mode"><legend>제보 방법</legend><label><input type="radio" name="mode" value="github" checked> GitHub 계정으로</label><label><input type="radio" name="mode" value="anonymous"> 비회원으로</label></fieldset>
+        <p id="mode-help" class="fine-print">입력한 내용을 GitHub 제보 양식으로 옮깁니다. 로그인 후 최종 등록해 주세요.</p>
+        <div id="turnstile-box" hidden></div>
+        <label class="sr-only" aria-hidden="true">Website<input id="website" tabindex="-1" autocomplete="off"></label>
+        <label class="public-consent"><input id="public-consent" type="checkbox" required> 제보 내용과 메뉴 링크가 공개되는 것을 확인했습니다.</label>
+        <button id="submit-button" type="submit" disabled>GitHub에서 등록하기 ↗</button>
+        <p id="submission-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="submission-panel" aria-labelledby="board-heading">
+      <div class="board-heading"><h2 id="board-heading">제보 게시판</h2><button id="reload-board" type="button">새로고침</button></div>
+      <p class="fine-print">접수된 제보입니다. 목록에 보이는 내용이 확인된 식당·메뉴라는 뜻은 아닙니다.</p>
+      <div id="submission-list" aria-live="polite">제보 목록을 불러오는 중입니다.</div>
+      <a class="board-source" href="https://github.com/inchency/today-buffet/issues?q=is%3Aissue+label%3Acommunity-submission" target="_blank" rel="noopener noreferrer">전체 제보·진행 상황 보기 ↗</a>
+    </section>
+  </div>
+  <footer><span>오늘의 뷔페 · 점심 정보도 함께 채워요</span><a href="./">오늘 메뉴로 돌아가기</a></footer>
+</main></body></html>

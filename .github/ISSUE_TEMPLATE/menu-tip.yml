@@ -1,0 +1,30 @@
+name: 메뉴 링크 제보
+description: 기존 식당의 공개 메뉴 공지 링크를 알려 주세요.
+title: "[메뉴 제보] "
+labels: [community-submission, menu-tip]
+body:
+  - type: input
+    id: restaurant_name
+    attributes:
+      label: 식당 이름
+    validations:
+      required: true
+  - type: input
+    id: menu_url
+    attributes:
+      label: 공개 메뉴 공지 링크
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: 추가 설명
+      description: 메뉴 날짜나 지점 구분을 적어 주세요. 개인정보·인증 정보는 적지 마세요.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 공개 확인
+      options:
+        - label: 제보 내용이 공개되고 검증 후 반영되는 것을 확인했습니다.
+          required: true
