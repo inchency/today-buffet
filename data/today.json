@@ -3,39 +3,39 @@
   "weather": {
     "provider": "네이버 날씨",
     "location": "강남구 역삼동",
-    "weather_date": "2026-11-09",
-    "fetched_at": "2026-11-09T12:44:52.376248+09:00",
+    "weather_date": "2026-11-10",
+    "fetched_at": "2026-11-10T13:27:10.025500+09:00",
     "observed_at": null,
-    "temperature": 10.2,
-    "apparent_temperature": 10.2,
-    "description": "구름많음",
+    "temperature": 11.5,
+    "apparent_temperature": 11.5,
+    "description": "맑음",
     "precipitation": null,
-    "low": 4.0,
+    "low": 1.0,
     "high": 13.0,
-    "rain_probability": 20,
+    "rain_probability": 0,
     "source_url": "https://weather.naver.com/today/09680101?cpName=KMA",
     "attribution": "날씨 정보: 네이버 날씨",
     "time_note": "원문에 관측시각이 없어 조회시각을 표시합니다"
   },
   "ai_recommendation": {
-    "restaurant_id": "gangnam-baekban",
-    "restaurant_name": "강남백반집",
+    "restaurant_id": "donchicken-yeoksam",
+    "restaurant_name": "돈치킨 역삼점",
     "dishes": [
-      "우거지 된장찌개",
-      "묵은지 돼지고기 두루치기"
+      "얼큰소고기해장국",
+      "수육보쌈"
     ],
-    "reason": "흐리고 쌀쌀한 날씨에는 따뜻한 우거지 된장찌개가 잘 어울립니다. 묵은지 돼지고기 두루치기를 곁들여 든든한 한 끼를 즐겨보세요.",
-    "menu_date": "2026-11-09",
+    "reason": "쌀쌀한 가을 날씨에 따뜻한 얼큰소고기해장국으로 몸을 녹이기 좋습니다. 든든한 수육보쌈까지 곁들여 기분 좋은 식사를 즐겨보세요.",
+    "menu_date": "2026-11-10",
     "provider": "Gemini",
     "model": "gemini-3.1-flash-lite",
-    "weather_observed_at": "2026-11-09T12:44:52.376248+09:00",
+    "weather_observed_at": "2026-11-10T13:27:10.025500+09:00",
     "weather_provider": "네이버 날씨"
   },
-  "ai_status": "available",
-  "date": "2026-11-09",
-  "updated_at": "2026-11-09T12:44:52.376248+09:00",
-  "updated_at_korean": "2026-11-09 12:44 KST",
-  "preview_available": false,
+  "ai_status": "ok",
+  "date": "2026-11-10",
+  "updated_at": "2026-11-10T13:27:10.025500+09:00",
+  "updated_at_korean": "2026-11-10 13:27 KST",
+  "preview_available": true,
   "schedule": "평일 08:00~19:00, 30분 간격 (시간 외 지연 실행 생략)",
   "restaurants": [
     {
@@ -58,37 +58,60 @@
       "source_note": "",
       "status": "READY",
       "dishes": [
-        "간장불고기",
-        "두부조림",
-        "떢볶이",
-        "김말이 튀김",
-        "짬뽕 칼국수",
-        "취 나물",
-        "무 나물",
-        "오이도라지무침",
-        "곤드레나물밥",
+        "한방보쌈",
+        "소세지야채볶음",
+        "만두튀김",
+        "우동면",
+        "어묵 탐",
+        "모듬쌈",
+        "숙주나물",
+        "콩나물밥",
         "과일",
         "야채샐러드",
         "배추김치",
         "토스트"
       ],
-      "menu_date": "2026-11-09",
-      "source_url": "https://www.instagram.com/p/DfgHWELTmtd/",
-      "published_at": "2026-11-09T10:08:13+09:00",
+      "menu_date": "2026-11-10",
+      "source_url": "https://www.instagram.com/p/Dfis6wmT8d7/",
+      "published_at": "2026-11-10T10:15:03+09:00",
       "image_url": null,
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
-      "collected_at": "2026-11-09T12:44:52.376248+09:00",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
+      "collected_at": "2026-11-10T13:27:10.025500+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/kangnambabsang3/",
           "status": "ok",
           "post_count": 6,
-          "latest_published_at": "2026-11-09T10:08:13+09:00",
+          "latest_published_at": "2026-11-10T10:15:03+09:00",
           "has_today_post": true
         }
       ],
-      "menu_summary": "간장불고기, 두부조림, 떢볶이, 김말이 튀김, 짬뽕 칼국수, 취 나물, 무 나물, 오이도라지무침, 곤드레나물밥, 과일, 야채샐러드, 배추김치, 토스트",
-      "verified_source": "https://www.instagram.com/kangnambabsang3/"
+      "menu_summary": "한방보쌈, 소세지야채볶음, 만두튀김, 우동면, 어묵 탐, 모듬쌈, 숙주나물, 콩나물밥, 과일, 야채샐러드, 배추김치, 토스트",
+      "verified_source": "https://www.instagram.com/kangnambabsang3/",
+      "previous_menu": {
+        "status": "READY",
+        "menu_date": "2026-11-09",
+        "dishes": [
+          "간장불고기",
+          "두부조림",
+          "떢볶이",
+          "김말이 튀김",
+          "짬뽕 칼국수",
+          "취 나물",
+          "무 나물",
+          "오이도라지무침",
+          "곤드레나물밥",
+          "과일",
+          "야채샐러드",
+          "배추김치",
+          "토스트"
+        ],
+        "menu_summary": "간장불고기, 두부조림, 떢볶이, 김말이 튀김, 짬뽕 칼국수, 취 나물, 무 나물, 오이도라지무침, 곤드레나물밥, 과일, 야채샐러드, 배추김치, 토스트",
+        "source_url": "https://www.instagram.com/p/DfgHWELTmtd/",
+        "published_at": "2026-11-09T10:08:13+09:00",
+        "image_url": null,
+        "verified_source": "https://www.instagram.com/kangnambabsang3/"
+      }
     },
     {
       "id": "milhoegwan",
@@ -120,7 +143,7 @@
       "source_url": null,
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
       "collected_at": null,
       "source_checks": [],
       "menu_summary": "당일 메뉴 공개 채널 확인 필요"
@@ -153,7 +176,7 @@
       "source_url": null,
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
       "collected_at": null,
       "source_checks": [],
       "menu_summary": "당일 메뉴 공개 채널 확인 필요"
@@ -181,40 +204,46 @@
       "source_note": "",
       "status": "READY",
       "dishes": [
-        "닭도리탕",
-        "수제탕수육",
-        "도토리묵양념장",
-        "궁중떡볶이",
-        "소고기무국",
-        "아삭이고추무침",
-        "미역줄기볶음",
-        "오이부추무침",
+        "제육볶음&쌈채소",
+        "유린기",
+        "돼지김치찜&온두부",
+        "김치콩나물국",
+        "브로콜리 초장",
+        "미나리숙주나물",
+        "건파래볶음",
         "양배추샐러드",
-        "사과잼샌드위치",
-        "바나나",
-        "피땅콩",
-        "누룽지숭늉",
-        "아이스티"
+        "사과잼샌드위치/바나나/피땅콩",
+        "누룽지숭늉/아이스티"
       ],
-      "menu_date": "2026-11-09",
-      "source_url": "https://www.instagram.com/p/DfbJDnky7Bi/",
-      "published_at": "2026-11-07T11:46:36+09:00",
-      "image_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/890616666_17913912228510235_8744151771872523120_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAyNDg1MDUyMzA1NTk2MDE2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Nimqa85LGdAQ7kNvwH5vwmN&_nc_oc=Adq437CBsWeJ7d73EuygoJL9_FMELDTSnYBcc4unnsoAv8LlGZD-aMLcSC9OFjG6ipI&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=EXu3SOal4olJIYQofClRsw&_nc_ss=7b60f&oh=00_AQT-GEJGEUGKWsfiXV8ByCwoZUW5BH4ETJNd0zdjO8QyPw&oe=6AF70097",
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
-      "collected_at": "2026-11-09T12:44:52.376248+09:00",
+      "menu_date": "2026-11-10",
+      "source_url": "https://www.instagram.com/p/Dfgx8J9SqTR/",
+      "published_at": "2026-11-09T16:20:03+09:00",
+      "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/894074043_17914247616510235_6580900504608927534_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjQzNzcwNTAwODg1MDEyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_9BCpWMZtbwQ7kNvwEYnvIN&_nc_oc=AdrR64yDNNixEA7TjZldx6gD6WgKH6mfG6OUOPdif9x7miW-EwRHMJ5WkRdIb5BUrnM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=aOthHTgKindc8JazWhjmWQ&_nc_ss=7b60f&oh=00_AQRM4N2SHtxJ-OofHtJkC76Ym7YvriUanEtn2ka-Inr7dA&oe=6AF86EB9",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
+      "collected_at": "2026-11-10T13:27:10.025500+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/nollan_buffet/",
           "status": "ok",
           "post_count": 6,
-          "latest_published_at": "2026-11-09T10:20:24+09:00",
+          "latest_published_at": "2026-11-10T10:21:39+09:00",
           "has_today_post": true
         }
       ],
-      "menu_summary": "닭도리탕, 수제탕수육, 도토리묵양념장, 궁중떡볶이, 소고기무국, 아삭이고추무침, 미역줄기볶음, 오이부추무침, 양배추샐러드, 사과잼샌드위치, 바나나, 피땅콩, 누룽지숭늉, 아이스티",
+      "menu_summary": "제육볶음&쌈채소, 유린기, 돼지김치찜&온두부, 김치콩나물국, 브로콜리 초장, 미나리숙주나물, 건파래볶음, 양배추샐러드, 사과잼샌드위치/바나나/피땅콩, 누룽지숭늉/아이스티",
       "extraction_method": "gemini_ocr",
-      "date_evidence": "11월 9일 월요일",
-      "verified_source": "https://www.instagram.com/nollan_buffet/"
+      "date_evidence": "11월 10일 화요일",
+      "verified_source": "https://www.instagram.com/nollan_buffet/",
+      "previous_menu": {
+        "status": "IMAGE_ONLY",
+        "menu_date": "2026-11-09",
+        "dishes": [],
+        "menu_summary": "",
+        "source_url": "https://www.instagram.com/p/DfbJDnky7Bi/",
+        "published_at": "2026-11-07T11:46:36+09:00",
+        "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/890616666_17913912228510235_8744151771872523120_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNDg1MDUyMzA1NTk2MDE2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Nimqa85LGdAQ7kNvwHD0JE2&_nc_oc=AdqDhjKo8b9DQUgbyb_8tKx_P3ZftY0cHYJdUbu5LY8TXOg3GXUrA2rk8QLklQ30zHo&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=aOthHTgKindc8JazWhjmWQ&_nc_ss=7b60f&oh=00_AQRoupdamcqRAHjx8JU5htJ9F06SSPMI61b9UGyRF6_Jgg&oe=6AF88A57",
+        "verified_source": "https://www.instagram.com/nollan_buffet/"
+      }
     },
     {
       "id": "chans-chance",
@@ -244,7 +273,7 @@
       "source_url": "https://www.instagram.com/k_chans_chance/",
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
       "collected_at": null,
       "source_checks": [
         {
@@ -288,7 +317,7 @@
       "source_url": "https://welplan.pmh.codes/restaurants/welstory/REST000066/%ED%99%94%EC%9E%AC%EC%84%9C%EC%B4%88",
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
       "collected_at": null,
       "source_checks": [
         {
@@ -323,36 +352,36 @@
       "source_note": "",
       "status": "READY",
       "dishes": [
-        "콩밥/흰밥",
-        "우거지 된장찌개",
-        "묵은지 돼지고기 두루치기",
-        "들기름 콩나물 비빔면",
-        "새우 가츠 & 수제소스",
-        "마라상궈",
-        "토마토 카프레제 샐러드",
+        "흑미밥/흰밥",
+        "미나리 부대찌개",
+        "고추마요 치킨",
+        "짜장 떡볶이 + 쫄면",
+        "명란 오이 구이 + 마요네즈 토핑",
+        "짬뽕 버섯볶음",
+        "두부 참깨 샐러드",
         "배추김치"
       ],
-      "menu_date": "2026-11-09",
+      "menu_date": "2026-11-10",
       "source_url": "https://www.instagram.com/p/DfgBfX9P3im/",
       "published_at": "2026-11-09T09:22:01+09:00",
-      "image_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/899788576_18101945954359251_1442645897760418262_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=105&ig_cache_key=NDAyNjIyNDYyMDk0MzE0NTEyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Yl6z1-IrUZoQ7kNvwGOeI0j&_nc_oc=AdrBWnCn-YwfyvK1Ky-4KV141s8iyZC5t4xS81AO5UCAlH7iMrdimOGziXYmlFmosoE&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=m0dH0lifa_lY6NNJoafGsQ&_nc_ss=7b60f&oh=00_AQTKOQ1dnhAoWaCUM4El78HR1Ox0d3jyghBXSXPFjxy33w&oe=6AF71946",
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
-      "collected_at": "2026-11-09T12:44:52.376248+09:00",
+      "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/899788576_18101945954359251_1442645897760418262_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjIyNDYyMDk0MzE0NTEyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Yl6z1-IrUZoQ7kNvwFt2wbt&_nc_oc=Adp2UWzC_1F8achYkR3i816C9N9bHDqlJwiRAhJoFKzskR7X4N20mH1yTGBRhW8p5Wg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=S4BS19FDAa4ibn7HvOi2Jw&_nc_ss=7b60f&oh=00_AQRlSH0Ao_kdjPbhc0Wl48gB7MDtDW6-NGxv9GTE5e1ARg&oe=6AF86AC6",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
+      "collected_at": "2026-11-10T13:27:10.025500+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/gangnamkoreanfoods/",
           "status": "ok",
           "post_count": 6,
           "latest_published_at": "2026-11-09T09:22:01+09:00",
-          "has_today_post": true
+          "has_today_post": false
         }
       ],
-      "menu_summary": "콩밥/흰밥, 우거지 된장찌개, 묵은지 돼지고기 두루치기, 들기름 콩나물 비빔면, 새우 가츠 & 수제소스, 마라상궈, 토마토 카프레제 샐러드, 배추김치",
+      "menu_summary": "흑미밥/흰밥, 미나리 부대찌개, 고추마요 치킨, 짜장 떡볶이 + 쫄면, 명란 오이 구이 + 마요네즈 토핑, 짬뽕 버섯볶음, 두부 참깨 샐러드, 배추김치",
       "extraction_method": "gemini_ocr",
-      "date_evidence": "11월 9일 월요일",
+      "date_evidence": "11월 10일 화요일",
       "verified_source": "https://www.instagram.com/gangnamkoreanfoods/",
       "notice_image": {
-        "image_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/899788576_18101945954359251_1442645897760418262_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=105&ig_cache_key=NDAyNjIyNDYyMDk0MzE0NTEyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Yl6z1-IrUZoQ7kNvwGOeI0j&_nc_oc=AdrBWnCn-YwfyvK1Ky-4KV141s8iyZC5t4xS81AO5UCAlH7iMrdimOGziXYmlFmosoE&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=m0dH0lifa_lY6NNJoafGsQ&_nc_ss=7b60f&oh=00_AQTKOQ1dnhAoWaCUM4El78HR1Ox0d3jyghBXSXPFjxy33w&oe=6AF71946",
+        "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/899788576_18101945954359251_1442645897760418262_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjIyNDYyMDk0MzE0NTEyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Yl6z1-IrUZoQ7kNvwFt2wbt&_nc_oc=Adp2UWzC_1F8achYkR3i816C9N9bHDqlJwiRAhJoFKzskR7X4N20mH1yTGBRhW8p5Wg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=S4BS19FDAa4ibn7HvOi2Jw&_nc_ss=7b60f&oh=00_AQRlSH0Ao_kdjPbhc0Wl48gB7MDtDW6-NGxv9GTE5e1ARg&oe=6AF86AC6",
         "source_url": "https://www.instagram.com/p/DfgBfX9P3im/",
         "published_at": "2026-11-09T09:22:01+09:00"
       }
@@ -385,7 +414,7 @@
       "source_url": "https://www.instagram.com/underground.gangnam/",
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
       "collected_at": null,
       "source_checks": [
         {
@@ -419,24 +448,14 @@
       "channel_audit": "",
       "source_label": "",
       "source_note": "",
-      "status": "READY",
-      "dishes": [
-        "직화 제육볶음",
-        "마파두부",
-        "치킨까스",
-        "냉 우동 샐러드",
-        "어 묵 탕",
-        "상추쌈",
-        "마카로니",
-        "배추 김치",
-        "오늘의 특밥 야채 볶음밥"
-      ],
-      "menu_date": "2026-11-09",
-      "source_url": "https://www.instagram.com/p/DfelrTIqwiE/",
-      "published_at": "2026-11-08T19:54:28+09:00",
-      "image_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/892434788_18193689610410141_828108989478579185_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyNTgyMDgyMDEyMDczMzgyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OW3xX1ZbXXYQ7kNvwHH4Qpn&_nc_oc=AdoiaRWBzQ62HYDydcplrSyf6zb1r49RQLpMT2J2dF9bU5dySUVDFNPVxfJfnAQnjN4&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=n9-2uL8lPLLmSsHMwkYHfQ&_nc_ss=7b60f&oh=00_AQRDnvFJhK3BFiPzhLAeB__3ni-JkOONnzuU0DQbYbay6g&oe=6AF7252D",
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
-      "collected_at": "2026-11-09T12:44:52.376248+09:00",
+      "status": "PENDING",
+      "dishes": [],
+      "menu_date": null,
+      "source_url": "https://www.instagram.com/omirakitchen/",
+      "published_at": null,
+      "image_url": null,
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
+      "collected_at": null,
       "source_checks": [
         {
           "url": "https://www.instagram.com/omirakitchen/",
@@ -446,15 +465,12 @@
           "has_today_post": false
         }
       ],
-      "menu_summary": "직화 제육볶음, 마파두부, 치킨까스, 냉 우동 샐러드, 어 묵 탕, 상추쌈, 마카로니, 배추 김치, 오늘의 특밥 야채 볶음밥",
-      "extraction_method": "gemini_ocr",
-      "date_evidence": "11월 09일(월)",
-      "verified_source": "https://www.instagram.com/omirakitchen/",
       "notice_image": {
-        "image_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/892434788_18193689610410141_828108989478579185_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyNTgyMDgyMDEyMDczMzgyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OW3xX1ZbXXYQ7kNvwHH4Qpn&_nc_oc=AdoiaRWBzQ62HYDydcplrSyf6zb1r49RQLpMT2J2dF9bU5dySUVDFNPVxfJfnAQnjN4&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=n9-2uL8lPLLmSsHMwkYHfQ&_nc_ss=7b60f&oh=00_AQRDnvFJhK3BFiPzhLAeB__3ni-JkOONnzuU0DQbYbay6g&oe=6AF7252D",
+        "image_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/892434788_18193689610410141_828108989478579185_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNTgyMDgyMDEyMDczMzgyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NMGiYu98GiYQ7kNvwFnw_lF&_nc_oc=Ado6qRNsJMIyRh_G6Fn3xdcIp7yp9jBCPJkQvj1_i9EG6tWus_nL5t-Wx0FUD8l4jW8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=MA82rOq1ubVifCaaBOwkkA&_nc_ss=7b60f&oh=00_AQSW_jnimncESXmOmdLJhzEpee11jynwGn-rVe96oWPC-w&oe=6AF876AD",
         "source_url": "https://www.instagram.com/p/DfelrTIqwiE/",
         "published_at": "2026-11-08T19:54:28+09:00"
-      }
+      },
+      "menu_summary": "오늘 날짜의 메뉴 공지가 아직 확인되지 않았습니다"
     },
     {
       "id": "donchicken-yeoksam",
@@ -480,40 +496,40 @@
       "source_note": "",
       "status": "READY",
       "dishes": [
-        "목살제육볶음",
-        "바삭후라이드치킨",
-        "단짠간장치킨",
-        "토마토파스타",
-        "얼큰김치찌개",
-        "매콤두부조림",
-        "햄감자채볶음",
+        "수육보쌈",
+        "군만두튀김",
+        "소고기스프",
+        "얼큰소고기해장국",
+        "쟁반막국수",
+        "야채계란찜",
+        "건파래볶음",
         "국산배추겉절이",
-        "양배추샐러드",
-        "무생채"
+        "갓김치",
+        "상추쌈"
       ],
-      "menu_date": "2026-11-09",
-      "source_url": "https://www.instagram.com/p/DfgJpVaH6cm/",
-      "published_at": "2026-11-09T10:27:54+09:00",
-      "image_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/893271959_17912413728480400_7362933132221281874_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAyNjI1OTkwNDA1Njc5NTY2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VTDdFyHzZrUQ7kNvwEYbqWt&_nc_oc=AdonngCxO_35jtU1wGhAjhRBJdfU2CcLzNKIN9TqW8LQePVM5BWhWyeCQadLJQwcNvs&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=Cdy-HQSxNk-HyhMGMfEF6Q&_nc_ss=7b60f&oh=00_AQR2hibR3U9EvjZkDYqqzoqZE9MNf-WPy5UxFnuA26wdBQ&oe=6AF7167A",
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
-      "collected_at": "2026-11-09T12:44:52.376248+09:00",
+      "menu_date": "2026-11-10",
+      "source_url": "https://www.instagram.com/p/DfiuBKcn_RR/",
+      "published_at": "2026-11-10T10:24:12+09:00",
+      "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/896051765_17912531688480400_7152981800971053685_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjk4MzEyNzg0NTIyNzM1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2uYfDrTlhHkQ7kNvwFMBaYO&_nc_oc=AdpbJrjAMQYbRgWDo5aDBkD2Q8e2JzVWMJXDfHRrAA0CGhaDFIVMQoHxSIOyZUx-QWo&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=uYhXPbZgOjl4RzJMNf1Qfw&_nc_ss=7b60f&oh=00_AQTtB67f4FST6EfeNsIQpzlZZ-R8kfdy-Mg4FwkvccfUng&oe=6AF887FD",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
+      "collected_at": "2026-11-10T13:27:10.025500+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/daeun_bsang/",
           "status": "ok",
           "post_count": 6,
-          "latest_published_at": "2026-11-09T10:27:54+09:00",
+          "latest_published_at": "2026-11-10T10:24:12+09:00",
           "has_today_post": true
         }
       ],
-      "menu_summary": "목살제육볶음, 바삭후라이드치킨, 단짠간장치킨, 토마토파스타, 얼큰김치찌개, 매콤두부조림, 햄감자채볶음, 국산배추겉절이, 양배추샐러드, 무생채",
+      "menu_summary": "수육보쌈, 군만두튀김, 소고기스프, 얼큰소고기해장국, 쟁반막국수, 야채계란찜, 건파래볶음, 국산배추겉절이, 갓김치, 상추쌈",
       "extraction_method": "gemini_ocr",
-      "date_evidence": "11/9일 월요일",
+      "date_evidence": "11/10일 화요일",
       "verified_source": "https://www.instagram.com/daeun_bsang/",
       "notice_image": {
-        "image_url": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/893271959_17912413728480400_7362933132221281874_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAyNjI1OTkwNDA1Njc5NTY2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VTDdFyHzZrUQ7kNvwEYbqWt&_nc_oc=AdonngCxO_35jtU1wGhAjhRBJdfU2CcLzNKIN9TqW8LQePVM5BWhWyeCQadLJQwcNvs&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=Cdy-HQSxNk-HyhMGMfEF6Q&_nc_ss=7b60f&oh=00_AQR2hibR3U9EvjZkDYqqzoqZE9MNf-WPy5UxFnuA26wdBQ&oe=6AF7167A",
-        "source_url": "https://www.instagram.com/p/DfgJpVaH6cm/",
-        "published_at": "2026-11-09T10:27:54+09:00"
+        "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/896051765_17912531688480400_7152981800971053685_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjk4MzEyNzg0NTIyNzM1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2uYfDrTlhHkQ7kNvwFMBaYO&_nc_oc=AdpbJrjAMQYbRgWDo5aDBkD2Q8e2JzVWMJXDfHRrAA0CGhaDFIVMQoHxSIOyZUx-QWo&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=uYhXPbZgOjl4RzJMNf1Qfw&_nc_ss=7b60f&oh=00_AQTtB67f4FST6EfeNsIQpzlZZ-R8kfdy-Mg4FwkvccfUng&oe=6AF887FD",
+        "source_url": "https://www.instagram.com/p/DfiuBKcn_RR/",
+        "published_at": "2026-11-10T10:24:12+09:00"
       }
     },
     {
@@ -544,7 +560,7 @@
       "source_url": null,
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-09T12:44:52.376248+09:00",
+      "checked_at": "2026-11-10T13:27:10.025500+09:00",
       "collected_at": null,
       "source_checks": [],
       "menu_summary": "당일 메뉴 공개 채널 확인 필요"
@@ -552,6 +568,6 @@
   ],
   "summary": {
     "total": 11,
-    "ready": 5
+    "ready": 4
   }
 }
