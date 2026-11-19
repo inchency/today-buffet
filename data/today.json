@@ -1,40 +1,24 @@
 {
   "schema_version": 2,
-  "weather": {
-    "provider": "네이버 날씨",
-    "location": "강남구 역삼동",
-    "weather_date": "2026-11-19",
-    "fetched_at": "2026-11-19T12:55:56.038050+09:00",
-    "observed_at": null,
-    "temperature": 4.2,
-    "apparent_temperature": 0.5,
-    "description": "맑음",
-    "precipitation": null,
-    "low": -1.0,
-    "high": 5.0,
-    "rain_probability": 30,
-    "source_url": "https://weather.naver.com/today/09680101?cpName=KMA",
-    "attribution": "날씨 정보: 네이버 날씨",
-    "time_note": "원문에 관측시각이 없어 조회시각을 표시합니다"
-  },
+  "weather": null,
   "ai_recommendation": {
-    "restaurant_id": "donchicken-yeoksam",
-    "restaurant_name": "돈치킨 역삼점",
+    "restaurant_id": "gangnam-baekban",
+    "restaurant_name": "강남백반집",
     "dishes": [
-      "버섯소불고기",
-      "뜨끈한무북엇국"
+      "오징어 뭇국",
+      "분모자 안동 찜닭"
     ],
-    "reason": "기온이 낮고 쌀쌀한 날씨에는 따뜻한 국물과 든든한 고기 반찬이 잘 어울립니다. 돈치킨 역삼점에서 제공하는 뜨끈한 무북엇국과 버섯소불고기로 몸을 따뜻하게 녹여보세요.",
+    "reason": "날씨 정보가 없지만 따뜻한 오징어 뭇국은 식사로 좋습니다. 든든한 분모자 안동 찜닭과 함께 즐겨보세요.",
     "menu_date": "2026-11-19",
     "provider": "Gemini",
     "model": "gemini-3.1-flash-lite",
-    "weather_observed_at": "2026-11-19T12:55:56.038050+09:00",
-    "weather_provider": "네이버 날씨"
+    "weather_observed_at": null,
+    "weather_provider": null
   },
   "ai_status": "ok",
   "date": "2026-11-19",
-  "updated_at": "2026-11-19T12:55:56.038050+09:00",
-  "updated_at_korean": "2026-11-19 12:55 KST",
+  "updated_at": "2026-11-19T14:07:27.929405+09:00",
+  "updated_at_korean": "2026-11-19 14:07 KST",
   "preview_available": true,
   "schedule": "평일 08:00~19:00, 30분 간격 (시간 외 지연 실행 생략)",
   "restaurants": [
@@ -75,8 +59,8 @@
       "source_url": "https://www.instagram.com/p/Df54DA8TuGf/",
       "published_at": "2026-11-19T10:15:24+09:00",
       "image_url": null,
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
-      "collected_at": "2026-11-19T12:55:56.038050+09:00",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
+      "collected_at": "2026-11-19T14:07:27.929405+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/kangnambabsang3/",
@@ -141,7 +125,7 @@
       "source_url": null,
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
       "collected_at": null,
       "source_checks": [],
       "menu_summary": "당일 메뉴 공개 채널 확인 필요"
@@ -174,7 +158,7 @@
       "source_url": null,
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
       "collected_at": null,
       "source_checks": [],
       "menu_summary": "당일 메뉴 공개 채널 확인 필요"
@@ -220,9 +204,9 @@
       "menu_date": "2026-11-19",
       "source_url": "https://www.instagram.com/p/Df33TbQy9h7/",
       "published_at": "2026-11-18T15:29:26+09:00",
-      "image_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/912122599_17915726247510235_3801717483465645448_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMjkzNTIxODgzNDU2MTE0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=CfFkxpxe1tcQ7kNvwHkDYTT&_nc_oc=AdqH1KRkPcYboomiZD51ID2i__G1lky8cGrts7FcYbuuktvYE6pmGE0s-e5ku3YW604&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_gid=x4cUH3CYqfXpFtGYVcWGng&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQS5IRF6XJhi2uKeDYVobY24PF8E5caBImHraFX_N9mJNA&oe=6B045FE9",
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
-      "collected_at": "2026-11-19T12:55:56.038050+09:00",
+      "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912122599_17915726247510235_3801717483465645448_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMjkzNTIxODgzNDU2MTE0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=CfFkxpxe1tcQ7kNvwERDcrH&_nc_oc=Adqn_nC5AZpL_i__mVfGS8NvP2p6AO1zLQE2QP0yAmxgnB0Qpe6oCvOGvBUMdeCmMEg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=Dt4QUZ3SPqaSEt8ctXLR_g&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQRf5bsE8z_cJoGlnRSY-1POeqhQyQUypLG632441p1KJw&oe=6B045FE9",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
+      "collected_at": "2026-11-19T14:07:27.929405+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/nollan_buffet/",
@@ -243,7 +227,7 @@
         "menu_summary": "",
         "source_url": "https://www.instagram.com/p/Df1Z5RVyq7C/",
         "published_at": "2026-11-17T16:33:59+09:00",
-        "image_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/906156374_17915613612510235_5613818089931574316_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMjI0MjkyODE3MjMxNDMwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=K0zOJjRRpZ8Q7kNvwGkwpg-&_nc_oc=AdraVeNb_3n0OHBd11EpuHMLLZYo1GdC0KPRc-Tw6OJDOE1ehniG0PB-iD7urCWlkcE&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_gid=x4cUH3CYqfXpFtGYVcWGng&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQdB-m3exPNsC3Y3OVEJpCvRc9rGbxGESih7kBn9tNA_Q&oe=6B043C86",
+        "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/906156374_17915613612510235_5613818089931574316_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMjI0MjkyODE3MjMxNDMwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=K0zOJjRRpZ8Q7kNvwE2Ii2p&_nc_oc=AdotYvT72P0BX9C4YepmpAEt6BSn-hKZchEOwYEB-hx29J3ZrAip00Sc3v8B3kjHbfw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=Dt4QUZ3SPqaSEt8ctXLR_g&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQRM0oWyHCLwen7CRPmsV0IaQ3OBHKLRkquJ1_WSS17YRw&oe=6B043C86",
         "verified_source": "https://www.instagram.com/nollan_buffet/"
       }
     },
@@ -275,7 +259,7 @@
       "source_url": "https://www.instagram.com/k_chans_chance/",
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
       "collected_at": null,
       "source_checks": [
         {
@@ -319,7 +303,7 @@
       "source_url": "https://welplan.pmh.codes/restaurants/welstory/REST000066/%ED%99%94%EC%9E%AC%EC%84%9C%EC%B4%88",
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
       "collected_at": null,
       "source_checks": [
         {
@@ -366,9 +350,9 @@
       "menu_date": "2026-11-19",
       "source_url": "https://www.instagram.com/p/Dfx9wjETKGo/",
       "published_at": "2026-11-16T08:31:54+09:00",
-      "image_url": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/910741474_18103027913359251_1479835970390551892_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI3NDc1ODQ5ODQ2MDA3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OOO4ONGU54sQ7kNvwFtxJL4&_nc_oc=AdprGuSVqKcgmXvvy2b3_k9Wbz2K2nVQQt6N9rWFey9NlVf2BYZddoEPVP_YUj9F6GQ&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&_nc_gid=afvGaC1X-rokr284_RAjXQ&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQSW4kSyqpxfO6hhBBFBoq25HWEl6D6593tDIrGSIKSLnQ&oe=6B043421",
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
-      "collected_at": "2026-11-19T12:55:56.038050+09:00",
+      "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/910741474_18103027913359251_1479835970390551892_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI3NDc1ODQ5ODQ2MDA3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OOO4ONGU54sQ7kNvwEVb5IO&_nc_oc=Adq6RGayQTPYeyftn3NkfouKH1ipLselfP4zn4tgV4gm18Ll7LSwCHV1CCwYsLkZ4GU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=NGC5rnnRjp0ljdNurwZszQ&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQyNy5vaBsIl52WX1Jf0Jto0VPDEO1VhcYEzAXRFMrT4g&oe=6B046C61",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
+      "collected_at": "2026-11-19T14:07:27.929405+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/gangnamkoreanfoods/",
@@ -383,7 +367,7 @@
       "date_evidence": "11월 19일 목요일",
       "verified_source": "https://www.instagram.com/gangnamkoreanfoods/",
       "notice_image": {
-        "image_url": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/910741474_18103027913359251_1479835970390551892_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI3NDc1ODQ5ODQ2MDA3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OOO4ONGU54sQ7kNvwFtxJL4&_nc_oc=AdprGuSVqKcgmXvvy2b3_k9Wbz2K2nVQQt6N9rWFey9NlVf2BYZddoEPVP_YUj9F6GQ&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&_nc_gid=afvGaC1X-rokr284_RAjXQ&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQSW4kSyqpxfO6hhBBFBoq25HWEl6D6593tDIrGSIKSLnQ&oe=6B043421",
+        "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/910741474_18103027913359251_1479835970390551892_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI3NDc1ODQ5ODQ2MDA3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OOO4ONGU54sQ7kNvwEVb5IO&_nc_oc=Adq6RGayQTPYeyftn3NkfouKH1ipLselfP4zn4tgV4gm18Ll7LSwCHV1CCwYsLkZ4GU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=NGC5rnnRjp0ljdNurwZszQ&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQyNy5vaBsIl52WX1Jf0Jto0VPDEO1VhcYEzAXRFMrT4g&oe=6B046C61",
         "source_url": "https://www.instagram.com/p/Dfx9wjETKGo/",
         "published_at": "2026-11-16T08:31:54+09:00"
       }
@@ -416,7 +400,7 @@
       "source_url": "https://www.instagram.com/underground.gangnam/",
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
       "collected_at": null,
       "source_checks": [
         {
@@ -465,9 +449,9 @@
       "menu_date": "2026-11-19",
       "source_url": "https://www.instagram.com/p/Dfx3K7Yqg1z/",
       "published_at": "2026-11-16T07:32:52+09:00",
-      "image_url": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/907608849_18194517091410141_2094917347009682491_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI0NTc4NDk5MDc0ODAxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0Jey7aBRp8kQ7kNvwGrA_EN&_nc_oc=AdqgPMn1zJgZxH6UMRDl5jLl4tnLWK0bo3S1a9xUDJJvXzaQiBxgs0iBEe4pNxqqRIU&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&_nc_gid=VIxmFN6aqQRgb7ZXXwFcJw&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQQWnY4nBYe43vWFC2TyL6_qzNs-pIgx-frTLF-TJwDbg&oe=6B0456BC",
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
-      "collected_at": "2026-11-19T12:55:56.038050+09:00",
+      "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/907608849_18194517091410141_2094917347009682491_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI0NTc4NDk5MDc0ODAxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0Jey7aBRp8kQ7kNvwGIn-ZN&_nc_oc=AdqdeB3JtOBOIBoK1O1BPAv-zvPe8rtr1tNFRZp72G-mNWRz1l5iRQ7tXuBObW1Wk0c&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=BNS-qgguIQBFydP8UcYByw&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQTcP8BNS9mZUcU2eBZWPoUdwiirQOGOgQ9xhJQbui3bFw&oe=6B0456BC",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
+      "collected_at": "2026-11-19T14:07:27.929405+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/omirakitchen/",
@@ -482,7 +466,7 @@
       "date_evidence": "11월 19일(목)",
       "verified_source": "https://www.instagram.com/omirakitchen/",
       "notice_image": {
-        "image_url": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/907608849_18194517091410141_2094917347009682491_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI0NTc4NDk5MDc0ODAxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0Jey7aBRp8kQ7kNvwGrA_EN&_nc_oc=AdqgPMn1zJgZxH6UMRDl5jLl4tnLWK0bo3S1a9xUDJJvXzaQiBxgs0iBEe4pNxqqRIU&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&_nc_gid=VIxmFN6aqQRgb7ZXXwFcJw&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQQWnY4nBYe43vWFC2TyL6_qzNs-pIgx-frTLF-TJwDbg&oe=6B0456BC",
+        "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/907608849_18194517091410141_2094917347009682491_n.jpg?stp=dst-jpg_e35_s1080x1080_sh2.08_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMTI0NTc4NDk5MDc0ODAxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0Jey7aBRp8kQ7kNvwGIn-ZN&_nc_oc=AdqdeB3JtOBOIBoK1O1BPAv-zvPe8rtr1tNFRZp72G-mNWRz1l5iRQ7tXuBObW1Wk0c&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=BNS-qgguIQBFydP8UcYByw&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQTcP8BNS9mZUcU2eBZWPoUdwiirQOGOgQ9xhJQbui3bFw&oe=6B0456BC",
         "source_url": "https://www.instagram.com/p/Dfx3K7Yqg1z/",
         "published_at": "2026-11-16T07:32:52+09:00"
       }
@@ -523,9 +507,9 @@
       "menu_date": "2026-11-19",
       "source_url": "https://www.instagram.com/p/Df58hK-jQL8/",
       "published_at": "2026-11-19T10:53:26+09:00",
-      "image_url": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/916421889_17913764061480400_1729508772759254747_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMzUyMDg4NjE2MDUzNzA5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IkVPQ4InuQAQ7kNvwGFfnkW&_nc_oc=AdpDr6rKkMFLA8zjDTIP1eKQ7jo3VskhXsM2FWHE_rNLIJ0qg0nLza7yd3rT1NnKjks&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&_nc_gid=VdxGVuw1T5E1RwPvgIP-Qg&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQs17aEql4ssL1rJXZNUZCsTk0GbDCjv037cTofenHu2w&oe=6B04309B",
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
-      "collected_at": "2026-11-19T12:55:56.038050+09:00",
+      "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/916421889_17913764061480400_1729508772759254747_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMzUyMDg4NjE2MDUzNzA5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IkVPQ4InuQAQ7kNvwEwDUK6&_nc_oc=AdoL8lwwg9p5XlfAlqd44F_BjXgpvI3tup0GdADvOuhI6QlRwUn3Bdi2aON4XwshKzc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=VxuL0_0XUjYY9AjII0JZPw&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQTWm-UKBlceZTeuLvwhjWlyMleZBiAN62_wF7RTzjjS3w&oe=6B0468DB",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
+      "collected_at": "2026-11-19T14:07:27.929405+09:00",
       "source_checks": [
         {
           "url": "https://www.instagram.com/daeun_bsang/",
@@ -540,7 +524,7 @@
       "date_evidence": "11/19일 목요일",
       "verified_source": "https://www.instagram.com/daeun_bsang/",
       "notice_image": {
-        "image_url": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/916421889_17913764061480400_1729508772759254747_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMzUyMDg4NjE2MDUzNzA5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IkVPQ4InuQAQ7kNvwGFfnkW&_nc_oc=AdpDr6rKkMFLA8zjDTIP1eKQ7jo3VskhXsM2FWHE_rNLIJ0qg0nLza7yd3rT1NnKjks&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&_nc_gid=VdxGVuw1T5E1RwPvgIP-Qg&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQs17aEql4ssL1rJXZNUZCsTk0GbDCjv037cTofenHu2w&oe=6B04309B",
+        "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/916421889_17913764061480400_1729508772759254747_n.heic?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAzMzUyMDg4NjE2MDUzNzA5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IkVPQ4InuQAQ7kNvwEwDUK6&_nc_oc=AdoL8lwwg9p5XlfAlqd44F_BjXgpvI3tup0GdADvOuhI6QlRwUn3Bdi2aON4XwshKzc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=VxuL0_0XUjYY9AjII0JZPw&_nc_ss=7b60f&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQTWm-UKBlceZTeuLvwhjWlyMleZBiAN62_wF7RTzjjS3w&oe=6B0468DB",
         "source_url": "https://www.instagram.com/p/Df58hK-jQL8/",
         "published_at": "2026-11-19T10:53:26+09:00"
       }
@@ -573,7 +557,7 @@
       "source_url": null,
       "published_at": null,
       "image_url": null,
-      "checked_at": "2026-11-19T12:55:56.038050+09:00",
+      "checked_at": "2026-11-19T14:07:27.929405+09:00",
       "collected_at": null,
       "source_checks": [],
       "menu_summary": "당일 메뉴 공개 채널 확인 필요"
